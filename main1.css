@@ -1,0 +1,59 @@
+.container {
+
+    background-color: rgb(222, 97, 55);
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #100606;
+    border-radius: 5px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #1a1818;
+  }
+
+  .form-group button {
+    padding: 10px 20px;
+    background-color: #5e60ee;
+    color: rgb(20, 17, 17);
+    border: center;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .form-group button:hover {
+    background-color: #f5fbf6;
+  }
+
+  #user-list {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #user-list th,
+  #user-list td {
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: left;
+  }
+
+  #user-list th {
+    background-color: #f9ad77;
+    color: rgb(0, 0, 0);
+  }
+  
